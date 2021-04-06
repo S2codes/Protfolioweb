@@ -170,7 +170,7 @@ align-items: center;
 }
 .mid-box{
     /* border: 2px solid cyan; */
-    background:url("../image/mii.png");
+    background:url("/image/mii.png");
     height: 350px;
     width: 100%;
     margin: auto;
@@ -188,7 +188,7 @@ align-items: center;
 .para{
     height: 60%;
     width: 70%;
-    background: rgba(255, 255, 255, 0.37);
+    background: rgba(255, 255, 255, 0.493);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -202,7 +202,9 @@ align-items: center;
 .para h3{
     font-size: 2.2rem;
     margin: 5px;
-    
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px black;
 }
 .para p{
     font-size: 1.3rem;
